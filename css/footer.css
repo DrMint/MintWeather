@@ -1,0 +1,16 @@
+#footer {
+    padding: 3rem 2rem 4rem 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-top: 0.2rem dotted var(--color-main-dark);
+    height: min-content;
+    place-self: end;
+  }
+  
+  @media screen and (orientation: portrait) {
+    #footer {
+      font-size: 80%;
+    }
+  }

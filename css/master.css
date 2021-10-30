@@ -18,9 +18,10 @@ body {
   padding: 0;
   color: var(--color-main-black);
   display: grid;
-  place-items: center;
+  justify-items: center;
   grid-gap: 3rem;
   font-weight: 600;
+  min-height: 100vh;
 }
 
 h1, h2 {
@@ -75,13 +76,4 @@ input:focus-visible {
 a {
   color: var(--color-main-dark);
   text-decoration: none;
-}
-
-#footer {
-  padding: 3rem 2rem 4rem 2rem;
-  width: 100%;
-  text-align: center;
-  background-color: #fff;
-  box-sizing: border-box;
-  outline: 0.2rem dotted var(--color-main-dark);
 }

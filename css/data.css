@@ -58,6 +58,8 @@
     text-align: center;
     background-color: var(--color-main-base);
     box-shadow: 0 0 2rem #00000022;
+    border-radius: 1rem;
+    height: 100%;
 }
 
 #cityInfo, #forecasts > div > h3 {
