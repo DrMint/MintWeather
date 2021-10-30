@@ -35,7 +35,7 @@ function refreshMap(latitude, longitude, zoom=13, displayMarker=true) {
 
         const markerStyle = new ol.style.Style({
             image: new ol.style.Icon({
-              src: "../img/marker.png",
+              src: "img/marker.png",
               scale: 0.25,
               anchor: [0.5, 1]
             }),
