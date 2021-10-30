@@ -3,6 +3,7 @@
     grid-auto-flow: column;
     z-index: 10;
     height: min-content;
+    max-width: 90%;
 }
 
 @media screen and (orientation: landscape) {
