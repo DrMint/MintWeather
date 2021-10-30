@@ -4,6 +4,7 @@
     border: 0;
     outline: 0.2rem dotted var(--color-main-dark);
     outline-offset: -2px;
+    filter: saturate(2) brightness(0.7) contrast(2) sepia(1) hue-rotate(75deg) saturate(1.2);
 }
 
 @media screen and (orientation: portrait) {

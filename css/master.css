@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
 :root {
-  --color-main-light: #FFFAF0;
-  --color-main-base: #fffbf4;
-  --color-main-dark: #954535;
-  --color-main-black: #1B1811;
+  --color-main-light: #f5fffa;
+  --color-main-base: #fff;
+  --color-main-dark: #73d298;
+  --color-main-black: #0b4430;
 }
 
 body {
@@ -70,4 +70,18 @@ hr {
 
 input:focus-visible {
   outline: 0px;
+}
+
+a {
+  color: var(--color-main-dark);
+  text-decoration: none;
+}
+
+#footer {
+  padding: 3rem 2rem 4rem 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  outline: 0.2rem dotted var(--color-main-dark);
 }
