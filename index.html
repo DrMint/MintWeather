@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png"/>
+    <script src="js/weather.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/data.css">
+    <link rel="stylesheet" href="css/osm.css">
+    
+</head>
+<body>
+
+    <div class="popupContainer">
+        <div id="errorPopup">
+            <h2 id="errorTitle"></h2>
+            <p id="errorDescription"></p>
+            <div class="closePopup button">Close</div>
+        </div>
+    </div>
+
+    <div id="osmContainer"></div>
+
+    <div id="searchForm">
+        <input id="cityInput" placeholder="Enter the name of a city" type="text">
+        <button class="button invert" id="showWeatherButton" type="button">Show Weather</button>
+    </div>
+
+
+    <div id="cityInfo"></div>
+    <hr>
+    <div id="forecasts"></div>
+
+    <div id="footer">Powered by <a href="https://prevision-meteo.ch">https://prevision-meteo.ch</a></div>
+    
+
+</body>
+</html>

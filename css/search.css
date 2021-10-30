@@ -1,0 +1,25 @@
+#searchForm {
+    display: grid;
+    grid-auto-flow: column;
+    z-index: 10;
+}
+
+@media screen and (orientation: landscape) {
+    #searchForm {
+        font-size: 130%;
+    }
+}
+
+#searchForm > #cityInput {
+    border-radius: 100vmax 0 0 100vmax;
+    padding: 0.3em 1.1em;
+    border: .15em solid var(--color-main-dark);
+    border-right: none;
+    color: var(--color-main-dark);
+    font-size: 100%;
+}
+
+#searchForm > #showWeatherButton {
+    border-radius: 0 100vmax 100vmax 0;
+    font-size: 100%;
+}

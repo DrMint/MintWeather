@@ -1,0 +1,43 @@
+.popupContainer {
+    display: none;
+    z-index: 11;
+}
+
+.popupContainer.enabled {
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000077;
+    box-sizing: border-box;
+    padding: 2rem;
+    place-items: center;
+}
+
+.popupContainer > div {
+    background-color: var(--color-main-base);
+    padding: 1rem 2rem;
+    width: 50vw;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    box-shadow: 0 0 5em #00000055;
+}
+
+@media screen and (orientation: portrait) {
+    .popupContainer > div {
+        background-color: var(--color-main-base);
+        width: 100%;
+        padding: 1rem 2rem;
+        box-sizing: border-box;
+    }
+}
+
+.popupContainer > div > .closePopup {
+    margin: 1em;
+}
+
