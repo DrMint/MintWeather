@@ -11,7 +11,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background: var(--color-main-light);
-  background-image: url('/img/bg.png');
+  background-image: url('img/bg.png');
   background-blend-mode: multiply;
   background-size: 50rem;
   margin: 0;
