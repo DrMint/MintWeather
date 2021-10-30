@@ -140,3 +140,10 @@ refreshMap(0, 0, 0, false);
 
 showWeatherButton.addEventListener("click", () => fetchWeatherInfo(cityInput.value));
 closePopupButton.addEventListener("click", closeErrorPopup)
+cityInput.addEventListener("keyup", (event) => {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      fetchWeatherInfo(cityInput.value);
+    }
+  }); 
